@@ -905,7 +905,7 @@ static char * nurbs_xpm[] = {
 			self.appendToolbar("Points Workspaces and Views", cmds4 )
 			self.appendToolbar("Geodesic Patch Tests", cmds5 )
 
-			print "create toolbars-------------------------"
+			print("create toolbars-------------------------")
 			for t in self.toolbars:
 				print t
 				self.appendToolbar(t[0], t[1])
